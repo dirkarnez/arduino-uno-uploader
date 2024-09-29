@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <button
+        arduino-uploader
+        hex-href="[path to your hex file]"
+        board="[name of the board]"
+        [optional]verify
+        [optional]port-filters='[{"usbProductId":46388,"usbVendorId":1241}]'
+    >
+        > Upload blinker to lgt8f328p and verify uploaded code
+        <span class="upload-progress"></span>
+    </button>
+</body>
+</html>
