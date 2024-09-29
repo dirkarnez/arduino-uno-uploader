@@ -6,12 +6,13 @@
     <script src="./main.js"></script>
 </head>
 <body>
+    <!-- These ids below are in decimal, not hexadecimal -->
     <button
         arduino-uploader
         hex-href="Blink.ino.uno.hex"
         board="uno"
         verify
-        port-filters='[{"usbProductId":0043,"usbVendorId":2341}]'
+        port-filters='[{"usbProductId":67,"usbVendorId":9025}]'
     >
         > Upload blinker to Arduino UNO and verify uploaded code
         <span class="upload-progress"></span>
